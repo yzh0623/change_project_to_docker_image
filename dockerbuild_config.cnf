@@ -1,0 +1,19 @@
+##
+##
+## 本配置文件为自动创建docker镜像配置（自建自用）
+## 
+## 作者：yuanzhenhui
+## 时间：2020-12-4
+##
+
+# 项目路径
+project_path=/Users/yuanzhenhui/Documents/code_space/vertx/phw2-hb-vtx
+
+# jar包的存放路径
+jar_name=phw2-hb-vtx-prod-2.0.1.jar
+
+# 仓库url（不需要改除非ip地址经过修改）
+registry_url=192.168.100.167:5000/yzh/
+
+# volume路径（不需要改）
+dockerfile_volume=/Users/yuanzhenhui/Documents/document_file/tmp/other
