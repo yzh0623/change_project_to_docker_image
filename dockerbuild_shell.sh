@@ -28,6 +28,10 @@ mvn clean package -Dmaven.test.skip=true -e -U
 # dockerfile地址
 currect_path=$source_path/build_folder
 
+if [ ! -d $currect_path ]; then
+	mkdir -p $currect_path
+fi
+
 # 分解jar包名称获取到项目名称和版本信息
 file_name=${jar_name%-*}
 head_name=${jar_name#$file_name-}
