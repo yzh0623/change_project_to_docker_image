@@ -1,0 +1,2 @@
+# ChangeProject2DockerImage
+脚本使用maven打包，并将动态生成dockerfile将jar包打包成docker镜像提交到本地docker仓库中
